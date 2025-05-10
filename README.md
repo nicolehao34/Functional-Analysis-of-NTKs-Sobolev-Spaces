@@ -4,9 +4,11 @@ Operator Learning in Sobolev Spaces via Neural Tangent Kernels (NTKs)
 ---
 
 ## Overview  
-This project bridges **functional analysis**, **neural tangent kernel (NTK) theory**, and **operator learning** to rigorously analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. The goal is to characterize the interplay between neural network architecture, optimization dynamics, and approximation error in high-dimensional function spaces, with applications to learning solution operators of partial differential equations (PDEs).  
+This project bridges **functional analysis**, **neural tangent kernel (NTK) theory**, and **operator learning** to (more rigorously) analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. 
 
-Key themes:  
+The goal of this project is to characterize/study the interplay between neural network architecture, optimization dynamics, and approximation error in high-dimensional function spaces, with applications to learning solution operators of partial differential equations (PDEs).  
+
+Specifcially, the project includes these themes:
 - **Mathematical Framework**: Sobolev spaces, neural tangent kernels, and operator-valued RKHS.  
 - **Theoretical Insights**: Approximation bounds, spectral bias, and optimization guarantees.  
 - **Numerical Validation**: PDE case studies (e.g., Burgers’ equation) with error analysis.  
