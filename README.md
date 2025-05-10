@@ -8,14 +8,15 @@ This project bridges **functional analysis**, **neural tangent kernel (NTK) theo
 
 The goal of this project is to characterize/study the interplay between neural network architecture, optimization dynamics, and approximation error in high-dimensional function spaces, with applications to learning solution operators of partial differential equations (PDEs).  
 
-Specifcially, the project includes these themes:
-- **Mathematical Framework**: Sobolev spaces, neural tangent kernels, and operator-valued RKHS.  
-- **Theoretical Insights**: Approximation bounds, spectral bias, and optimization guarantees.  
+The final report includes the following sections
+- **Mathematical Framework**: Sobolev spaces, neural tangent kernels, and operator-valued RKHS.
+- **Literature Review**: Existing literature on relevant topics.
+- **Theoretical Foundations**: Proving and approximating error bounds, spectral bias, and optimization guarantees.  
 - **Numerical Validation**: PDE case studies (e.g., Burgers’ equation) with error analysis.  
 
 ---
 
-## Scope  
+## Sections
 ### 1. **Theoretical Contributions**  
 - **Operator Approximation**: Prove universal approximation theorems for neural networks mapping between Sobolev spaces \( H^s(D) \to H^t(D') \).  
 - **NTK Analysis**: Derive spectral properties of the neural tangent kernel for operator learning and link its eigendecomposition to Sobolev-space error rates.  
