@@ -1,8 +1,4 @@
 
-**Functional Analysis of Neural Tangent Kernels in Sobolev Networks for Operator Learning**  
-Operator Learning in Sobolev Spaces via Neural Tangent Kernels (NTKs)
----
-
 ## Overview  
 This project bridges **functional analysis**and **operator learning** to (more rigorously) analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. 
 
@@ -35,7 +31,7 @@ Instead of input: a number → output: a number
 
 It's input: a function → output: a function
 
-Operator learning means using a neural network to learn that machine (the operator) from examples, so you can use it to make predictions in the future.
+Operator learning means using a neural network to learn a machine (the operator) from examples, so you can use it to make predictions in the future.
 
 
 --- 
@@ -43,17 +39,12 @@ Operator learning means using a neural network to learn that machine (the operat
 ## Sections
 ### 1. **Theoretical Contributions**  
 - **Operator Approximation**: Prove universal approximation theorems for neural networks mapping between Sobolev spaces \( H^s(D) \to H^t(D') \).  
-- **NTK Analysis**: Derive spectral properties of the neural tangent kernel for operator learning and link its eigendecomposition to Sobolev-space error rates.  
 - **Error Bounds**: Establish scaling laws for network depth/width and their impact on generalization in Sobolev norms.  
 
 ### 2. **Numerical Experiments**  
 - **Burgers Equation**: Learn the operator mapping initial conditions to PDE solutions.  
-- **NTK Eigenanalysis**: Quantify spectral decay of the NTK and its correlation with Sobolev errors.  
 - **Width/Depth Scaling**: Validate theoretical depth-width-error tradeoffs.  
 
-### 3. **Applications**  
-- Scientific machine learning (SciML) tasks like PDE surrogate modeling.  
-- Cross-domain transfer learning for function-to-function regression.  
 
 ---
 
