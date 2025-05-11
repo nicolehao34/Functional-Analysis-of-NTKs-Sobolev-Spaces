@@ -4,12 +4,6 @@ This project bridges **functional analysis**and **operator learning** to (more r
 
 The goal of this project is to characterize/study the interplay between neural network architecture, optimization dynamics, and approximation error in high-dimensional function spaces, with applications to learning solution operators of partial differential equations (PDEs).  
 
-The final report includes the following sections
-- **Mathematical Framework**: Sobolev spaces, neural tangent kernels, and operator-valued RKHS.
-- **Literature Review**: Existing literature on relevant topics.
-- **Theoretical Foundations**: Proving and approximating error bounds, spectral bias, and optimization guarantees.  
-- **Numerical Validation**: PDE case studies (e.g., Burgers’ equation) with error analysis.  
-
 ---
 
 ## Some background info on Operator Learning
