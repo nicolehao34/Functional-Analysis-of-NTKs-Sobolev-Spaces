@@ -11,7 +11,7 @@ What's operator learning exactly?
 
 So, in normal machine learning, you often try to learn a function, like predicting the price of a house based on its size. 
 
-One input → one output.
+**One input → one output.**
 
 But in science (like physics or climate modeling), we often care about something more complex: what happens to an entire shape, signal, or function when it goes through a system. 
 
