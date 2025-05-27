@@ -5,6 +5,8 @@ This project bridges **functional analysis** and **operator learning** to (more 
 The goal of this project is to characterize/study the interplay between neural network architecture, optimization dynamics, and approximation error in high-dimensional function spaces, with applications to learning solution operators of PDEs.  
 
 Work in Progress! I will add the code for numerical experiments soon :)
+
+**May 27, 2025 Update: Created and uploaded numerics and theory folders**
 ---
 
 ## Some background info on Operator Learning
