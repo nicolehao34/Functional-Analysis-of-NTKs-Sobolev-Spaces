@@ -1,4 +1,5 @@
 
+# Functional Analysis of Operator Learning: Quantitative Error Bounds in Sobolev Spaces
 ## Overview  
 This project bridges **functional analysis** and **operator learning** to (more rigorously) analyze how deep neural networks approximate nonlinear operators between Sobolev spaces. 
 
@@ -49,15 +50,37 @@ Operator learning means using a neural network to learn a machine (the operator)
 
 ---
 
-##  Setup  
-### Dependencies  
-- **LaTeX**: Compile theoretical proofs and final report (packages: `amsmath`, `amsthm`, `amssymb`).  
-- **Python**: For numerical experiments (PyTorch, NumPy, SciPy, FEniCS).  
-
+##  Setup  & Dependencies  
+- **Python**: For numerical experiments (PyTorch, NumPy, Scipy).  
+- Install dependecies first using `pip install -r requirements.txt`
 
 ---
 
-## For Readers  
-- **Theorists**: Focus on `theory/` for functional analysis proofs and NTK-RKHS connections.  
-- **Practitioners**: Use `numerics/` to reproduce experiments or adapt code for PDE learning tasks.  
-- **Educators**: The LaTeX report (`report/main.tex`) provides a self-contained tutorial on Sobolev-space operator learning. 
+## Repo Structure 
+-  `theory/`
+    - `results.pdf`: proofs and theoreticsal background.  
+
+- `numerics`, use this set of scripts to reproduce experiments and numerical results.  
+
+    - solver.py: Spectral solver for Burgers equation
+
+    - data.py: Dataset generation using the solver
+
+    - model.py: FNO architecture
+
+    - train.py: Training loop
+
+    - sobolev.py: H1 norm error calculation
+
+    - main.py: Main script to run everything end-to-end
+
+## To Run Experiments
+
+In terminal, run
+
+`cd numerics`
+
+then,
+
+`python main.py`
+
