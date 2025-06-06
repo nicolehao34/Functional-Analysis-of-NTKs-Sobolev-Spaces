@@ -6,8 +6,8 @@ The goal of this project is to characterize/study the interplay between neural n
 
 Work in Progress! I will add the code for numerical experiments soon :)
 
-- **May 27, 2025 Update: Created and uploaded numerics and theory folders**
-
+- **May 27, 2025 Update: Created and uploaded numerics and theory folders.**
+- **Jun 6, 2025 Update: First version of numerics, updated report, modifed repo structure.**
   
 ---
 
